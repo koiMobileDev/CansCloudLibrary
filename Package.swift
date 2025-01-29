@@ -5,20 +5,18 @@ import PackageDescription
 
 let package = Package(
     name: "CansCloudLibrary",
+    platforms: [
+            .iOS(.v16) // iOS version target
+        ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CansCloudLibrary",
-            targets: ["CansCloudLibrary"]),
+            targets: ["canscloud-ios-framework-new"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "CansCloudLibrary"),
-        .testTarget(
-            name: "CansCloudLibraryTests",
-            dependencies: ["CansCloudLibrary"]
-        ),
-    ]
+            // The destination of the framework you will obfuscate the code
+            .binaryTarget(name: "FrameworkDemo", path: "./Sources/FrameworkDemo.xcframework")
+        ]
 )
+
