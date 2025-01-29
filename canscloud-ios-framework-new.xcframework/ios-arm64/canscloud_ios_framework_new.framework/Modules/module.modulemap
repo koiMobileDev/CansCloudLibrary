@@ -1,0 +1,6 @@
+framework module canscloud_ios_framework_new {
+  umbrella header "canscloud_ios_framework_new.h"
+  export *
+
+  module * { export * }
+}

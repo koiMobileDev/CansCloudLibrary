@@ -1,0 +1,75 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "canscloud_ios_framework_new",
+    "printedName": "canscloud_ios_framework_new",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "canscloud_ios_framework_new",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CansCenter",
+        "printedName": "CansCenter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27canscloud_ios_framework_new10CansCenterC5loginSSyFZ",
+            "mangledName": "$s27canscloud_ios_framework_new10CansCenterC5loginSSyFZ",
+            "moduleName": "canscloud_ios_framework_new",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27canscloud_ios_framework_new10CansCenterC",
+        "mangledName": "$s27canscloud_ios_framework_new10CansCenterC",
+        "moduleName": "canscloud_ios_framework_new",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
