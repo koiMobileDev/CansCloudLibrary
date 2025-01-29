@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
             // The destination of the framework you will obfuscate the code
-            .binaryTarget(name: "FrameworkDemo", path: "./Sources/FrameworkDemo.xcframework")
+            .binaryTarget(name: "canscloud-ios-framework-new", path: "./Sources/canscloud-ios-framework-new.xcframework")
         ]
 )
 
