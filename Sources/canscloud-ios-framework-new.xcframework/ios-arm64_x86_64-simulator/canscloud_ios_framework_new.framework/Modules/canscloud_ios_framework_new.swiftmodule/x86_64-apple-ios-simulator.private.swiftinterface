@@ -8,6 +8,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import canscloud_ios_framework_new
 @_hasMissingDesignatedInitializers public class CansCenter {
-  public static func login()
+  public static func login() -> Swift.String
   @objc deinit
 }

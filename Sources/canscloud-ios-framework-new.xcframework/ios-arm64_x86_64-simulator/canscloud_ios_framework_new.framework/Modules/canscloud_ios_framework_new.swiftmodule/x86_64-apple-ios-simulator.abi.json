@@ -26,13 +26,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:27canscloud_ios_framework_new10CansCenterC5loginyyFZ",
-            "mangledName": "$s27canscloud_ios_framework_new10CansCenterC5loginyyFZ",
+            "usr": "s:27canscloud_ios_framework_new10CansCenterC5loginSSyFZ",
+            "mangledName": "$s27canscloud_ios_framework_new10CansCenterC5loginSSyFZ",
             "moduleName": "canscloud_ios_framework_new",
             "static": true,
             "declAttributes": [
